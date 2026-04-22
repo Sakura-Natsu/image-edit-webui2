@@ -1,23 +1,5 @@
 {
   "framework": "nextjs",
   "installCommand": "npm install",
-  "buildCommand": "npm run build",
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": {
-      "description": "Your Supabase project URL (e.g. https://xxxx.supabase.co)",
-      "required": false
-    },
-    "SUPABASE_SERVICE_ROLE_KEY": {
-      "description": "Supabase service_role secret key (server-side only, never exposed to browser)",
-      "required": false
-    },
-    "OPENAI_API_KEY": {
-      "description": "OpenAI API key used as default when users have not set their own key in Settings",
-      "required": false
-    },
-    "OPENAI_BASE_URL": {
-      "description": "Base URL for OpenAI-compatible API (default: https://api.openai.com/v1)",
-      "required": false
-    }
-  }
+  "buildCommand": "npm run build"
 }
